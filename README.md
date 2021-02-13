@@ -6,5 +6,6 @@ userChrome.css to make Firefox tabs auto hide with minimal looks and more like a
 2. (a) git clone repository and change folder name to "chrome".    OR    (b) create new folder, name it "chrome" and copy userChrome.css to the folder. 
 3. restart firefox
 
-# known issue
-no multi tab in private mode
+# known issue (tested on linux with gnome shell )
+- no multi tab in private mode. no solution yet
+- graphics tearing on default theme. solution: use other theme

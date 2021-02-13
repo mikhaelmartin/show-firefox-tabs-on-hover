@@ -12,8 +12,8 @@
  bottom: -26px !important;   /* this line adjusts the position of the toolbar */
  width: 100vw !important;
  z-index: -1 !important;
- transition-delay: 900ms;
- visibility: hidden !important;
+ /* transition-delay: visibility 900ms; */
+ /* visibility: hidden !important; */
 }
 
 #navigator-toolbox:hover #TabsToolbar{
@@ -21,9 +21,9 @@
  position: absolute !important;
  bottom: -26px !important;  /* this line adjusts the position of the toolbar */
  width: 100vw !important;
- transition-delay: 10ms;
+ transition-delay: 200ms;
  z-index: 0 !important; 
- visibility: visible !important;
+ /* visibility: visible !important; */
 }
 
 #main-window:not([chromehidden*="toolbar"]) #navigator-toolbox  {
